@@ -5,14 +5,14 @@ misc = Tunnel.getInterface("unity_dispatch")
 ----------------------------------------------------------------------------------------------------
 Citizen.CreateThread(function()
 	while true do
-        SetDiscordAppId(821518247261634590)
+        SetDiscordAppId(1309182543953793054)
 
 	    local players = misc.discord()
 		
-	    SetDiscordRichPresenceAsset('richdiscord')
-		SetRichPresence("Moradores: "..players.."\n Base Unity Vrpex")
+	    SetDiscordRichPresenceAsset('bk_rgb1024x1024')
+		SetRichPresence("Moradores: "..players.."\n Base SP Vrpex")
 		
-        SetDiscordRichPresenceAction(0, "Discord", "https://discord.gg/pbT5wVp8e9")
+        SetDiscordRichPresenceAction(0, "Discord", "https://discord.gg/RgDP28Dbqy")
         SetDiscordRichPresenceAction(1, "Site", "https://unitydev.discloud.app/")
 		Citizen.Wait(10000)
 	end
