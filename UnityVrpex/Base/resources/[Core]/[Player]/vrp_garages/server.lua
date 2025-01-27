@@ -30,10 +30,10 @@ end
 -----------------------------------------------------------------------------------------------------------------------------------------
 -- WEBHOOK
 -----------------------------------------------------------------------------------------------------------------------------------------
-local webhookadmin = ""
-local webhookvehs = ""
-local webhookvagasgaragem = ""
-local webhookdesmanche = ""
+local webhookadmin = "https://discord.com/api/webhooks/1333482411681386516/dahmYtzDk04Z-90WWdYGkVpZf5EdyVtJxbm4qJPgyXDvKrocajBW3s4usAp2XBMRq5ou"
+local webhookvehs = "https://discord.com/api/webhooks/1333481975922819163/_LODgoYGcmYTIxt9ShmUEhuGLBB0arbb3Gki3l-DN1XidQzun8E4Hka7h3CLbiQookdu"
+local webhookvagasgaragem = "https://discord.com/api/webhooks/1333482066309812357/SDCEA3LyzDxRVKIWjkS9zBcuIj56FNaW1AWAA7U3-gMhAPMsXGbgwtKK1HOe1akN1Dg-"
+local webhookdesmanche = "https://discord.com/api/webhooks/1333482143615291423/n1FtKTh4dc3Z2Iz9Ruuq9q42nmEo1IXyFyUhL3tNI-_T9ZHftgFGV2Fcb6A5h7hvc2hg"
 
 function SendWebhookMessage(webhook,message)
 	if webhook ~= nil and webhook ~= "" then

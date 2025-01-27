@@ -14,7 +14,7 @@ config['otherID'] = { -- abrir ID de outra pessoa
     ['command'] = 'passaporte'
 }
 
-config['webhook'] = "https://discord.com/api/webhooks/1291881022157488239/mHJiTenv3gyWpebLRHhuTQjn19tgiDvgTcIHi4EabqeZ1X1imFrEbKqZQJQAHgV50Sys"
+config['webhook'] = "https://discord.com/api/webhooks/1333477095635947520/CeRSq6H5QMCvYHrjpIuVIoCHup2ki9DZLIBmMRg1J-MEWNoIPSMdgcBn_sTOGTg76cuV"
 
 config['types'] = {
     ['policia.permissao'] = {

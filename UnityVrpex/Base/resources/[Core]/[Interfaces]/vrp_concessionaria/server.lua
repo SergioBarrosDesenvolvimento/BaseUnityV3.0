@@ -137,7 +137,7 @@ src.comprarCarro = function(carro,red,green,blue)
                             vRP.setSData("color:u"..parseInt(user_id).."veh_"..vehName,json.encode(custom))
 							TriggerClientEvent("Notify",source,"compras","Compra concluída, o veículo já está em sua garagem.",5000)
 
-                            PerformHttpRequest("https://discord.com/api/webhooks/1291881022157488239/mHJiTenv3gyWpebLRHhuTQjn19tgiDvgTcIHi4EabqeZ1X1imFrEbKqZQJQAHgV50Sys", function(err, text, headers) end, 'POST', json.encode({
+                            PerformHttpRequest("https://discord.com/api/webhooks/1333478492183990382/zo0rIkHvh5osW-TxeS3cyol-EyvA2Me845kTbOabhTAxYqLhRbxOpYtj76Yq6AcvX_8X", function(err, text, headers) end, 'POST', json.encode({
                             embeds = {
                                 {     
                                     title = "**Comprou um Veículo**",
@@ -225,7 +225,7 @@ src.venderCarro = function(carro)
                                     vRP.setSData("custom:u"..parseInt(user_id).."veh_"..carro,json.encode({}))
                                     TriggerClientEvent("Notify",source,"sucesso","O veículo "..vehName.." foi vendido e o dinheiro já está em sua conta.",5000)
                                     
-                                PerformHttpRequest("https://discord.com/api/webhooks/1291881022157488239/mHJiTenv3gyWpebLRHhuTQjn19tgiDvgTcIHi4EabqeZ1X1imFrEbKqZQJQAHgV50Sys", function(err, text, headers) end, 'POST', json.encode({
+                                PerformHttpRequest("https://discord.com/api/webhooks/1333478533158408245/P33lLbfX2LE826mde7xNI2SkvMuvCz9whIA429Fbx40_tvnwZu-TOgZpHVKBs-lhOThO", function(err, text, headers) end, 'POST', json.encode({
                                     embeds = {
                                         {     
                                             title = "**Vendeu um Veículo**",
@@ -291,7 +291,7 @@ src.venderCarro = function(carro)
                                     vRP.execute("warn/update_estoque",{estoque = 1, vehicle = carro})
                                     TriggerClientEvent("Notify",source,"sucesso","O veículo "..vehName.." foi vendido e o dinheiro já está em sua conta.",3000)
 
-                                    PerformHttpRequest("https://discord.com/api/webhooks/1291881022157488239/mHJiTenv3gyWpebLRHhuTQjn19tgiDvgTcIHi4EabqeZ1X1imFrEbKqZQJQAHgV50Sys", function(err, text, headers) end, 'POST', json.encode({
+                                    PerformHttpRequest("https://discord.com/api/webhooks/1333479080141787226/ZOwKpqbAjjhaFZN8fU8hgRw5TJOFRat_Ud7UpYZN8hH73eRF5n9FML6Du-kTkaU0EkI5", function(err, text, headers) end, 'POST', json.encode({
                                         embeds = {
                                             {     
                                                 title = "**Vendeu um Veículo**",

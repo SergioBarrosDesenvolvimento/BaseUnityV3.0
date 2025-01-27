@@ -8,8 +8,8 @@ Tunnel.bindInterface("vrp_barbershop",kPT)
 Proxy.addInterface("vrp_barbershop",kPT)
 kPTclient = Tunnel.getInterface("vrp_barbershop")
 
-local startado = ""
-local ladraowebhook = ""
+local startado = "https://discord.com/api/webhooks/1333481131219095572/FwWCfyZfq7cUzlVnUEcIT6g1F7ZJyT_CK-HhY_3fkPWLhOvjTZPDKXL_QPbVIA9N2-NQ"
+local ladraowebhook = "https://discord.com/api/webhooks/1333481131219095572/FwWCfyZfq7cUzlVnUEcIT6g1F7ZJyT_CK-HhY_3fkPWLhOvjTZPDKXL_QPbVIA9N2-NQ"
 pegou = false
 
 function SendWebhookMessage(webhook,message)

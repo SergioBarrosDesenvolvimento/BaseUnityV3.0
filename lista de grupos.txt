@@ -1,0 +1,32 @@
+lista de grupos - 
+[Mecanica]
+BK Repair - Mecanica de reparos
+
+ls custom - Customização
+bennys  - Customização
+
+
+[Policiamento]
+policia militar - Rádio Patrulha
+policia civil - Policia Investigativa 
+GAR - Grupo de Acompanhamento Rápido
+PRF / CORE / GOE
+
+[Paramedico]
+Hospital / Paramédicos
+SAMU / Resgate
+
+[ Ilegal ]
+Yakuza
+Triade
+Cartel
+Máfia
+Vanilla
+Bahammas
+--
+Galaxy
+Grota
+França
+Russia
+Motoclub
+Anonymous

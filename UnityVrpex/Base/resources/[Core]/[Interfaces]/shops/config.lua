@@ -1,6 +1,6 @@
 local cfg = {}
 
-cfg.imagesIp = "http://localhost:80/cidade/inventory/"
+cfg.imagesIp = "http://localhost:80/FiveMUnity/cidade/inventory/"
 
 cfg.shops ={
 

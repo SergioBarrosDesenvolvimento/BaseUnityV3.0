@@ -10,7 +10,7 @@ vCLIENT = Tunnel.getInterface("vrp_garages")
 -----------------------------------------------------------------------------------------------------------------------------------------
 -- WEBHOOK
 -----------------------------------------------------------------------------------------------------------------------------------------
-local webhookbaucarro = ""
+local webhookbaucarro = "https://discord.com/api/webhooks/1333483173908054069/JiAhUbvNurLFAi3EuCDferipgsq4sKEd3Ju5_N3xj2-3cLnZIrcsyz82OjuBpBDNsD50"
 
 function SendWebhookMessage(webhook,message)
 	if webhook ~= nil and webhook ~= "" then

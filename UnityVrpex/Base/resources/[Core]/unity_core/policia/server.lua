@@ -10,15 +10,15 @@ local idgens = Tools.newIDGenerator()
 -----------------------------------------------------------------------------------------------------------------------------------------
 -- WEBHOOK
 -----------------------------------------------------------------------------------------------------------------------------------------
-local webhookprender = ""
-local webhookmultas = ""
-local webhookocorrencias = ""
-local webhookdetido = ""
-local webhookparamedico = ""
-local webhookmecanico = ""
-local webhookre = ""
-local webhookpoliciaapreendidos = ""
-local webhookpoderes = ""
+local webhookprender = "https://discord.com/api/webhooks/1243531127147335804/Xya4MRcrpXs7qkNf9xd1920MqdouRw85qKv_Bv_qh04E70urD0qRxGaidw5eWNJXzlaW"
+local webhookmultas = "https://discord.com/api/webhooks/1243531127147335804/Xya4MRcrpXs7qkNf9xd1920MqdouRw85qKv_Bv_qh04E70urD0qRxGaidw5eWNJXzlaW"
+local webhookocorrencias = "https://discord.com/api/webhooks/1243531127147335804/Xya4MRcrpXs7qkNf9xd1920MqdouRw85qKv_Bv_qh04E70urD0qRxGaidw5eWNJXzlaW"
+local webhookdetido = "https://discord.com/api/webhooks/1243531127147335804/Xya4MRcrpXs7qkNf9xd1920MqdouRw85qKv_Bv_qh04E70urD0qRxGaidw5eWNJXzlaW"
+local webhookparamedico = "https://discord.com/api/webhooks/1243531127147335804/Xya4MRcrpXs7qkNf9xd1920MqdouRw85qKv_Bv_qh04E70urD0qRxGaidw5eWNJXzlaW"
+local webhookmecanico = "https://discord.com/api/webhooks/1243531127147335804/Xya4MRcrpXs7qkNf9xd1920MqdouRw85qKv_Bv_qh04E70urD0qRxGaidw5eWNJXzlaW"
+local webhookre = "https://discord.com/api/webhooks/1243531127147335804/Xya4MRcrpXs7qkNf9xd1920MqdouRw85qKv_Bv_qh04E70urD0qRxGaidw5eWNJXzlaW"
+local webhookpoliciaapreendidos = "https://discord.com/api/webhooks/1243531127147335804/Xya4MRcrpXs7qkNf9xd1920MqdouRw85qKv_Bv_qh04E70urD0qRxGaidw5eWNJXzlaW"
+local webhookpoderes = "https://discord.com/api/webhooks/1333481784817750108/D6qXpc1OSqfqDewgJEeZarxdG2gIIot0pkeqZI-UQ4B4umhtu6IeNDWnZGXUPozE2xgC"
 
 function SendWebhookMessage(webhook,message)
 	if webhook ~= nil and webhook ~= "" then

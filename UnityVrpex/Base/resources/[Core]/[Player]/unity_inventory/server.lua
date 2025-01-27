@@ -18,10 +18,10 @@ vDIAGNOSTIC = Tunnel.getInterface("vrp_diagnostic")
 --------------------------------------------------------------
 -- WEBHOOK
 --------------------------------------------------------------
-local webhookEquipouArma = ""
-local webhookRecarregar = ""
-local webhookEnviarItem = ""
-local webhookDropar = ""
+local webhookEquipouArma = "https://discord.com/api/webhooks/1333479582245978214/US5V29e5ZaZ_n4ORKJ8DkdmWd-e547h9DO6l4a_yA-BESCo7VCv_JKz5QwJvcznIpYvH"
+local webhookRecarregar = "https://discord.com/api/webhooks/1333479830435532860/0PY5wDj6LOAw1Sx2rp3bcagn0k-Fpz97fdn8zdt97bWmprus9-Rkf-Ju_PTpdrCRR-fj"
+local webhookEnviarItem = "https://discord.com/api/webhooks/1333480278143926332/mXaQXIlwjrItb9M-UIBwQeIsGGwZa6C5Ub7G5tkoKR01_5hb1v5qvTMoUncnRVAsn-Qx"
+local webhookDropar = "https://discord.com/api/webhooks/1333480437292597280/1of06NRiqZUa_G44DtFWMeSGCL6xy7S0AFYoRN_1Azyp5KfBLqNQ-I4tiwt2mE2WppQt"
 
 function SendWebhookMessage(webhook,message)
 	if webhook ~= nil and webhook ~= "" then

@@ -14,7 +14,7 @@ vCLIENT = Tunnel.getInterface("vrp_chest")
 -----------------------------------------------------------------------------------------------------------------------------------------
 -- WEBHOOKS
 -----------------------------------------------------------------------------------------------------------------------------------------
-local webhooke_prefeitura = ""
+local webhooke_prefeitura = "https://discord.com/api/webhooks/1333481306503249980/GNspYKlFWdxNYtm9zUtZWBoaYNngP2cB4zCQQZqcPE1Mbvg19rIFjNfEs37Z38z96DNh"
  
 function SendWebhookMessage(webhook,message)
     if webhook ~= nil and webhook ~= "" then

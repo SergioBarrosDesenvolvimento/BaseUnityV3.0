@@ -56,7 +56,7 @@ const updateGarages = () => {
                 (item) => `
 							<div class="item" data-item-name="${item.name}">
 												<div class="item-img">
-												<img src="http://localhost:80/cidade/carros/${item.name}.png" class="img">
+												<img src="http://localhost:80/FiveMUnity/cidade/carros/${item.name}.png" class="img">
 												</div>
 							                    <div class="item-textt">
 

@@ -194,7 +194,7 @@ function refreshDefaultCharacter()
 		SetPedComponentVariation(PlayerPedId(), 6, 35, 0, 2)
 		SetPedComponentVariation(PlayerPedId(), 8, 15, 0, 2)
 		SetPedComponentVariation(PlayerPedId(), 11, 15, 0, 2)
-	else
+	else -- roupa feminina
 		SetPedComponentVariation(PlayerPedId(), 3, 15, 0, 2)
 		SetPedComponentVariation(PlayerPedId(), 4, 21, 0, 2)
 		SetPedComponentVariation(PlayerPedId(), 6, 35, 0, 2)
@@ -239,14 +239,33 @@ RegisterNUICallback('cDoneSave',function(data,cb)
 	SetNuiFocus(isInCharacterMode,isInCharacterMode)
 	SendNUIMessage({ CharacterMode = isInCharacterMode})
 	if GetEntityModel(PlayerPedId()) == GetHashKey("mp_m_freemode_01") then
+		-- roupas inicial masculina
+		--[[
+			[1] = {-1,0,2},
+			[3] = {0,0,2},
+			[4] = {12,0,1},
+			[5] = {20,0,2},
+			[6] = {1,0,1},
+			[7] = {2,0,2},
+			[8] = {15,0,2},
+			[9] = {-1,0,2},
+			[10] = {-1,0,2},
+			[11] = {544,0,1},
+			["p7"] = {-1,0},
+			["p6"] = {-1,0},
+			[0] = {0,0,0},
+			["p1"] = {-1,0},
+			["p0"] = {-1,0},
+			["p2"] = {-1,0},
+		]]
 		SetPedComponentVariation(PlayerPedId(),1,-1,0,2)
 		SetPedComponentVariation(PlayerPedId(),5,20,0,2)
 		SetPedComponentVariation(PlayerPedId(),7,2,0,2)
 		SetPedComponentVariation(PlayerPedId(),3,0,0,2)
-		SetPedComponentVariation(PlayerPedId(),4,4,2,2)
+		SetPedComponentVariation(PlayerPedId(),4,12,0,1)
 		SetPedComponentVariation(PlayerPedId(),8,15,0,2)
-		SetPedComponentVariation(PlayerPedId(),6,31,4,2)
-		SetPedComponentVariation(PlayerPedId(),11,34,0,2)
+		SetPedComponentVariation(PlayerPedId(),6,1,0,0)
+		SetPedComponentVariation(PlayerPedId(),11,544,0,2)
 		SetPedComponentVariation(PlayerPedId(),9,-1,0,2)
 		SetPedComponentVariation(PlayerPedId(),10,-1,0,2)
 		SetPedPropIndex(PlayerPedId(),0,-1,0,2)
@@ -254,18 +273,38 @@ RegisterNUICallback('cDoneSave',function(data,cb)
 		SetPedPropIndex(PlayerPedId(),2,-1,0,2)
 		SetPedPropIndex(PlayerPedId(),6,-1,0,2)
 		SetPedPropIndex(PlayerPedId(),7,-1,0,2)
-	else
-		SetPedComponentVariation(PlayerPedId(),1,-1,0,2)
-		SetPedComponentVariation(PlayerPedId(),5,0,0,2)
-		SetPedComponentVariation(PlayerPedId(),7,0,0,2)
-		SetPedComponentVariation(PlayerPedId(),3,15,0,2)
-		SetPedComponentVariation(PlayerPedId(),4,43,0,2)
-		SetPedComponentVariation(PlayerPedId(),8,7,0,2)
-		SetPedComponentVariation(PlayerPedId(),6,33,1,2)
-		SetPedComponentVariation(PlayerPedId(),11,169,4,2)
-		SetPedComponentVariation(PlayerPedId(),9,-1,0,2)
-		SetPedComponentVariation(PlayerPedId(),10,-1,0,2)
-		SetPedPropIndex(PlayerPedId(),0,-1,0,2)
+	else-- roupa feminina inicial
+		--[[
+			[1] = {0,0,0},
+			[3] = {14,0,1},
+			[4] = {0,0,0},
+			[5] = {0,0,0},
+			[6] = {1,0,1},
+			[7] = {0,0,0},
+			[8] = {15,0,1},
+			[9] = {0,0,0},
+			[10] = {0,0,0},
+			[11] = {588,0,1},
+			[0] = {0,0,0},
+			["p1"] = {-1,0},
+			["p0"] = {-1,0},
+			["p6"] = {-1,0},
+			["p2"] = {-1,0},
+			["p7"] = {-1,0},
+		]]
+
+		SetPedComponentVariation(PlayerPedId(),1,-1,0,0) -- mascara
+		SetPedComponentVariation(PlayerPedId(),2,-1,0,0) -- cabelo
+		SetPedComponentVariation(PlayerPedId(),3,14,0,0) -- maos
+		SetPedComponentVariation(PlayerPedId(),4,0,0,0) -- calcas
+		SetPedComponentVariation(PlayerPedId(),5,0,0,0) -- mochilas
+		SetPedComponentVariation(PlayerPedId(),6,1,0,1) -- sapatos
+		SetPedComponentVariation(PlayerPedId(),7,0,0,0) -- acessorios
+		SetPedComponentVariation(PlayerPedId(),8,15,0,1) -- camisa
+		SetPedComponentVariation(PlayerPedId(),9,0,0,0) -- colete
+		SetPedComponentVariation(PlayerPedId(),10,0,0,0) -- decalque / adesivo
+		SetPedComponentVariation(PlayerPedId(),11,588,0,0) -- jaqueta
+		SetPedPropIndex(PlayerPedId(),0,0,0,0)
 		SetPedPropIndex(PlayerPedId(),1,-1,0,2)
 		SetPedPropIndex(PlayerPedId(),2,-1,0,2)
 		SetPedPropIndex(PlayerPedId(),6,3,0)

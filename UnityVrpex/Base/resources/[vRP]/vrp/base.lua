@@ -27,11 +27,11 @@ local db_initialized = false
 -----------------------------------------------------------------------------------------------------------------------------------------
 -- WEBHOOK
 -----------------------------------------------------------------------------------------------------------------------------------------
-local webhookjoins = ""
-local webhookexit = ""
-local webhookpolicia = ""
-local webhookparamedico = ""
-local webhookmecanico = ""
+local webhookjoins = "https://discord.com/api/webhooks/1243530742193979483/4VUFGD0mbEzyIhOCbBNoIsAQDhgkYbiwfVISdsx_GNc6Kthai5m4l6EbLZf1D-Vvra69"
+local webhookexit = "https://discord.com/api/webhooks/1243530833147592797/dAansK05PVhQJXjUylU1ERjRbDUmHgGqqt3K923IFnNDCWHTsiUOGy96XdhYkjeu3dU4"
+local webhookpolicia = "https://discord.com/api/webhooks/1273675873505120256/kIBohgn7Jpq8Fq0n1i74rCxrBltvl4n5OqhtE6EMXGic6qNJhTJaCvq8EOEXWzBIeMjS"
+local webhookparamedico = "https://discord.com/api/webhooks/1333058952782417920/x4v067G31d_vE-Omj-y-IBmniig3_FI-9SS1L_ituDY1RVzGZclRiRvclMBvbwt19uzI"
+local webhookmecanico = "https://discord.com/api/webhooks/1333059111566311526/5fEjq2vWf6KeVF0IBVzmIckxJQLcQU9WU2k3YEmU2chnuf-7p3F0Y84oDQ1F-CfmMMKE"
 
 function SendWebhookMessage(webhook,message)
 	if webhook ~= nil and webhook ~= "" then

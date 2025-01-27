@@ -1,8 +1,8 @@
 {
-    "webhookUrl": "your_webhook_here",
-    "framework": "none",
+    "webhookUrl": "https://discord.com/api/webhooks/1243516977620717618/FvlwgiaYclG-Tjs3bARJFZqaKS_QHA_nKPTpGweWa4MI83n0AKQLb_qCXG1FVHlXWGTU",
+    "framework": "vrpex",
     "commandName": "screenshot",
-    "commandPermission": "request.screenshot",
+    "commandPermission": "admin.permissao",
     "screenshotOptions": {
         "encoding": "jpg",
         "quality": 0.92

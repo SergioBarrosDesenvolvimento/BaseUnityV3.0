@@ -5,17 +5,18 @@ vRPclient = Tunnel.getInterface("vRP")
 -----------------------------------------------------------------------------------------------------------------------------------------
 -- WEBHOOK
 -----------------------------------------------------------------------------------------------------------------------------------------
-local webhookadmin = ""
-local webhookfac = ""
-local webhookkeys = ""
-local webhookcds = ""
-local webhookblacklist = ""
-local logAdmCorno = ""
+local webhookadmin = "https://discord.com/api/webhooks/1333481784817750108/D6qXpc1OSqfqDewgJEeZarxdG2gIIot0pkeqZI-UQ4B4umhtu6IeNDWnZGXUPozE2xgC"
+local webhookfac = "https://discord.com/api/webhooks/1333481784817750108/D6qXpc1OSqfqDewgJEeZarxdG2gIIot0pkeqZI-UQ4B4umhtu6IeNDWnZGXUPozE2xgC"
+local webhookkeys = "https://discord.com/api/webhooks/1333481784817750108/D6qXpc1OSqfqDewgJEeZarxdG2gIIot0pkeqZI-UQ4B4umhtu6IeNDWnZGXUPozE2xgC"
+local webhookcds = "https://discord.com/api/webhooks/1333481784817750108/D6qXpc1OSqfqDewgJEeZarxdG2gIIot0pkeqZI-UQ4B4umhtu6IeNDWnZGXUPozE2xgC"
+local webhookcdsh = "https://discord.com/api/webhooks/1333483885312475186/itmEWrggZHnyZwlU96Z1agG6fHWqHwkZxMHxdTdiSfDp7IbZRtvH1FR5bAShkO6Ah50B"
+local webhookblacklist = "https://discord.com/api/webhooks/1333481784817750108/D6qXpc1OSqfqDewgJEeZarxdG2gIIot0pkeqZI-UQ4B4umhtu6IeNDWnZGXUPozE2xgC"
+local logAdmCorno = "https://discord.com/api/webhooks/1333481784817750108/D6qXpc1OSqfqDewgJEeZarxdG2gIIot0pkeqZI-UQ4B4umhtu6IeNDWnZGXUPozE2xgC"
 
-local webhookItem = ""
+local webhookItem = "https://discord.com/api/webhooks/1333481784817750108/D6qXpc1OSqfqDewgJEeZarxdG2gIIot0pkeqZI-UQ4B4umhtu6IeNDWnZGXUPozE2xgC"
 
-local webhook_addVip = "https://discord.com/api/webhooks/1291881022157488239/mHJiTenv3gyWpebLRHhuTQjn19tgiDvgTcIHi4EabqeZ1X1imFrEbKqZQJQAHgV50Sys"
-local webhook_remVip = "https://discord.com/api/webhooks/1291881022157488239/mHJiTenv3gyWpebLRHhuTQjn19tgiDvgTcIHi4EabqeZ1X1imFrEbKqZQJQAHgV50Sys"
+local webhook_addVip = "https://discord.com/api/webhooks/1333481784817750108/D6qXpc1OSqfqDewgJEeZarxdG2gIIot0pkeqZI-UQ4B4umhtu6IeNDWnZGXUPozE2xgC"
+local webhook_remVip = "https://discord.com/api/webhooks/1333481784817750108/D6qXpc1OSqfqDewgJEeZarxdG2gIIot0pkeqZI-UQ4B4umhtu6IeNDWnZGXUPozE2xgC"
 
 vRP._prepare("admin/rename_id","UPDATE vrp_user_identities SET name = @name, firstname = @firstname, age = @age WHERE user_id = @user_id")
 
@@ -820,7 +821,7 @@ RegisterCommand('cdsh',function(source,args,rawCommand)
 		if lugar == "" then
 			return
 		end
-	    SendWebhookMessage(webhookcds,"```prolog\n[PASSAPORTE]: "..user_id.." \n[LUGAR]: "..lugar.." \n[CDSH]: ['x'] = "..tD(x)..", ['y'] = "..tD(y)..", ['z'] = "..tD(z)..", ['name'] = "..lugar..", \r```")
+	    SendWebhookMessage(webhookcdsh,"```prolog\n[PASSAPORTE]: "..user_id.." \n[LUGAR]: "..lugar.." \n[CDSH]: ['x'] = "..tD(x)..", ['y'] = "..tD(y)..", ['z'] = "..tD(z)..", ['name'] = "..lugar..", \r```")
 	end
 end)
 -----------------------------------------------------------------------------------------------------------------------------------------

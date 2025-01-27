@@ -148,17 +148,17 @@ $(function () {
                 break
             case 'proximity':
                 if (item.number == 1) {
-                    $('.circle').css('background', 'white')
-                    $('.circle2').css('background', 'rgb(156, 155, 155,0.6)')
-                    $('.circle3').css('background', 'rgb(156, 155, 155,0.6)')
+                    $('.circle').css('background', 'green')
+                    $('.circle2').css('background', 'grey')
+                    $('.circle3').css('background', 'grey')
                 } else if (item.number == 2) {
-                    $('.circle').css('background', 'white')
-                    $('.circle2').css('background', 'white')
-                    $('.circle3').css('background', 'rgb(156, 155, 155,0.6)')
+                    $('.circle').css('background', 'grey')
+                    $('.circle2').css('background', 'blue')
+                    $('.circle3').css('background', 'grey')
                 } else if (item.number == 3) {
-                    $('.circle').css('background', 'white')
-                    $('.circle2').css('background', 'white')
-                    $('.circle3').css('background', 'white')
+                    $('.circle').css('background', 'grey')
+                    $('.circle2').css('background', 'grey')
+                    $('.circle3').css('background', 'red')
                 }
                 break;
             case 'talking':

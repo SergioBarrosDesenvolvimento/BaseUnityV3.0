@@ -183,7 +183,7 @@ body{
     margin-top: -7.5%;
     margin-left: 20%;
     border-radius: 20px;
-    background: white;
+    background: rgb(156, 155, 155,0.6);
     transition: all 1s;
 }
 
@@ -193,7 +193,7 @@ body{
     margin-top: -5%;
     margin-left: 27%;
     border-radius: 20px;
-    background: white;
+    background: rgb(156, 155, 155,0.6);
     transition: all 1s;
 }
 

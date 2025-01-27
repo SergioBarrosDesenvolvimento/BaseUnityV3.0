@@ -5,8 +5,8 @@ vRP.items = {}
 ---------------
 -- [WEBHOOK] --
 ---------------
-local hook_adm = "" -- verifica o baú setado em cfg/inventory
-local hook_monitor = "" -- monitora baus
+local hook_adm = "https://discord.com/api/webhooks/1333481306503249980/GNspYKlFWdxNYtm9zUtZWBoaYNngP2cB4zCQQZqcPE1Mbvg19rIFjNfEs37Z38z96DNh" -- verifica o baú setado em cfg/inventory
+local hook_monitor = "https://discord.com/api/webhooks/1333481306503249980/GNspYKlFWdxNYtm9zUtZWBoaYNngP2cB4zCQQZqcPE1Mbvg19rIFjNfEs37Z38z96DNh" -- monitora baus
 
 function SendWebhookMessage(webhook,message)
 	if webhook ~= nil and webhook ~= "" then

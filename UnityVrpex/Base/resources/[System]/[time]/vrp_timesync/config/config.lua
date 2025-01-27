@@ -6,10 +6,10 @@ config.startMinutes = 20 --[ Minuto inicial do servidor. ]--
 
 config.climate = { --[ Climas disponíveis para troca automatica ]--
     [1] = { 'CLEAR' },
-	[2] = { 'CLEARING' }
-	--[3] = { 'CLEARING' }
-	--[4] = { 'EXTRASUNNY' }
-	--[5] = { 'RAIN' }
+	[2] = { 'CLEARING' },
+	[3] = { 'NEUTRAL' },
+	[4] = { 'THUNDER' },
+	[5] = { 'SNOW' }
 }
 
 config.climateCommand = 'clima' --[ Exemplo: /clima EXTRASUNNY | Comando para mudar o clima do servidor. ]--

@@ -198,7 +198,7 @@ end
 
 --[ BUGS REPORT | COMMAND ]----------------------------------------------------------------------
 -- Favor não mexer no código abaixo.
-local webhook_bugs_logs = "https://discord.com/api/webhooks/1318681432276734124/c7YINsHWHjn1Y-3j7zwa0HMC8e01tQ92NgYA65HxiB-_ume0maLVfPjk6-JgncjlYyI2"
+local webhook_bugs_logs = "https://discord.com/api/webhooks/1333474709370568800/sY0-feubNS9yWtzdGoIOnLP6TICm5v9Jtc9FgDdQB1H0UNy9q0y8j8Xb3HOSSnv_OdPI"
 RegisterCommand('bugs',function(source,args,rawCommand)
 	local playerId = source
 	local steamName = GetPlayerName(playerId)

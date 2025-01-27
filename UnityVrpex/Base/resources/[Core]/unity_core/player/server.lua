@@ -11,17 +11,17 @@ Tunnel.bindInterface("unity_core",player_tunnel)
 
 
 -- [WEBHOOK]
-local webhookgarmas = ""
-local webhookgarmas250 = ""
-local webhookequipar = "" 
-local webhookenviaritem = ""
-local webhookenviardinheiro = ""
-local webhookdropar = ""
-local webhookpaypal = ""
-local webhooksaquear = ""
-local webhookchat = ""
-local webhookilegal = ""
-local webhookCobrar = ""
+local webhookgarmas = "https://discord.com/api/webhooks/1333485004973408306/P-is-YLuGG_I15y1NPMb07iSo-SyO2OGt5222ICxncuyAeur8oOSeSC8qeDFzqN902Uw"
+local webhookgarmas250 = "https://discord.com/api/webhooks/1333485004973408306/P-is-YLuGG_I15y1NPMb07iSo-SyO2OGt5222ICxncuyAeur8oOSeSC8qeDFzqN902Uw"
+local webhookequipar = "https://discord.com/api/webhooks/1333485085890183218/diWDbm29Tr9grllJt5lyCy3IF9NEh2g4OQg7Bg8OalV-FxN3o_LTUuTtBqnti2omCTU9" 
+local webhookenviaritem = "https://discord.com/api/webhooks/1333485127740948592/0OWeRX05VH27zqhkw1vO2Lz4tjyNcgNUneOhcSXRRAtgoSQqHUw9KPEvx4Ywiv2WmSoo"
+local webhookenviardinheiro = "https://discord.com/api/webhooks/1333485174863696007/SKcU1g2-kQkCE-mh-ePDth6e352Tur45H2yYa40s4Nyaxym7EupU3py9sXeDS3-60raL"
+local webhookdropar = "https://discord.com/api/webhooks/1333485211295547474/sI83dqFPQs9mnPwWwMn-xs9GuIVAso2oOQv7bNILe2lkwahFvQsAhKWBRkUC5UV6J-rw"
+local webhookpaypal = "https://discord.com/api/webhooks/1333485255721488424/mdV-V-nJRg21knZWl1eca6s3Y3taHLtgxJsbjLSOhMU7AKHyM6GK_1QZiWfi2Cn3JOmC"
+local webhooksaquear = "https://discord.com/api/webhooks/1333485294787362846/3qPVeMqJ6NfVU1XWIxpL3wBZwNjVqgZjFeDippSPhDE2p_ktOakBY0m3x06bA515U-DK"
+local webhookchat = "https://discord.com/api/webhooks/1333485404309028884/v11rWNNvyfHAh4iA8XYcL7M-2GfnuRjxFzsVK44_M5Q8GP56JZ2bevbzkLHE6B_F1Fcg"
+local webhookilegal = "https://discord.com/api/webhooks/1333485443999862825/qbCZlLvJutIedesHjPVoCaaCJu0ggAuKHpUJxFtL8LKoeF4t432u_CNFKyCeVn5FFAgw"
+local webhookCobrar = "https://discord.com/api/webhooks/1333485488878780446/Vho0t9OM-VOcIqVYuQ5nSDDfdF8C_BTBWo0grwni167dHBoGMyA9l8l4F6JrKUfjyIQO"
 
 function SendWebhookMessage(webhook,message)
 	if webhook ~= nil and webhook ~= "" then
@@ -221,11 +221,41 @@ end)
 -- SALÁRIO
 -------------------------------------------------------------------------------------------------------------------------------------------
 local salarios = {
-	-- [vip] --
+------ [vip] --
 	{ ['permissao'] = "standart.permissao", ['nome'] = "BRONZE", ['payment'] = 3500 },
 	{ ['permissao'] = "premium.permissao", ['nome'] = "PRATA", ['payment'] = 5000 },
 	{ ['permissao'] = "elite.permissao", ['nome'] = "OURO", ['payment'] = 8000 },
 	{ ['permissao'] = "ultimate.permissao", ['nome'] = "PLATINA", ['payment'] = 12000 },
+
+------ [Policia] -- PM
+	{ ['permissao'] = "ComandanteGeralsalario.permissao", ['nome'] = "POLICIA", ['payment'] = 15500 },
+	{ ['permissao'] = "CoronelPMsalario.permissao", ['nome'] = "POLICIA", ['payment'] = 13500 },
+	{ ['permissao'] = "TenenteCoronelsalario.permissao", ['nome'] = "POLICIA", ['payment'] = 12000 },
+	{ ['permissao'] = "MajorPMsalario.permissao", ['nome'] = "POLICIA", ['payment'] = 11500 },
+	{ ['permissao'] = "CapitaoPMsalario.permissao", ['nome'] = "POLICIA", ['payment'] = 10000 },
+	{ ['permissao'] = "1Tenentesalario.permissao", ['nome'] = "POLICIA", ['payment'] = 8500 },
+	{ ['permissao'] = "2Tenentesalario.permissao", ['nome'] = "POLICIA", ['payment'] = 8000 },
+	{ ['permissao'] = "Subtenentesalario.permissao", ['nome'] = "POLICIA", ['payment'] = 7500 },
+	{ ['permissao'] = "1Tenentesalario.permissao", ['nome'] = "POLICIA", ['payment'] = 6900 },
+	{ ['permissao'] = "2Tenentesalario.permissao", ['nome'] = "POLICIA", ['payment'] = 6500 },
+	{ ['permissao'] = "3Tenentesalario.permissao", ['nome'] = "POLICIA", ['payment'] = 6000 },
+	{ ['permissao'] = "Cabosalario.permissao", ['nome'] = "POLICIA", ['payment'] = 5500 },
+	{ ['permissao'] = "Soldado1classsalario.permissao", ['nome'] = "POLICIA", ['payment'] = 5000 },
+	{ ['permissao'] = "Soldado2classsalario.permissao", ['nome'] = "POLICIA", ['payment'] = 4000 },
+	{ ['permissao'] = "recrutaPMsalario.permissao", ['nome'] = "POLICIA", ['payment'] = 3500 },
+
+------ [Hospital] --
+	{ ['permissao'] = "standart.permissao", ['nome'] = "HOSPITAL", ['payment'] = 3500 },
+
+------ [Mecanica] --
+	{ ['permissao'] = "standart.permissao", ['nome'] = "MECANICA", ['payment'] = 3500 },
+
+------ [Empregos ] --
+	{ ['permissao'] = "standart.permissao", ['nome'] = "EMPREGOS", ['payment'] = 3500 },
+
+
+
+
 
 	--
 }
